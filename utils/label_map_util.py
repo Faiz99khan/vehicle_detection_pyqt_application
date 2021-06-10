@@ -16,8 +16,8 @@
 """Label map utility functions."""
 
 import logging
-
-import tensorflow as tf
+#import tensorflow
+import tensorflow.compat.v1 as tf
 from google.protobuf import text_format
 from protos import string_int_label_map_pb2
 
