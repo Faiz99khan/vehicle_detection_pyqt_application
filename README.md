@@ -12,3 +12,18 @@ It is a vehicle detection application which is made using [PyQt5(GUI toolkit for
 <p align="center">
 <img src="results/screenshot3.PNG" >
 </p>
+
+## Installation
+Command to install all the libraries used in the project.
+```bash
+python install -r requirements.txt
+```
+
+## Run
+To run the app, just run this command after cloning the repository, installing the necessary libraries.
+```bash
+python vehicle_detection.py --vid_path <place video path>
+```
+
+## License
+Licensed under [MIT Licencse](LICENSE)
